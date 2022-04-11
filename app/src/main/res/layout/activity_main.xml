@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <CheckBox
+        android:id="@+id/checkChocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chocolate syrup"
+        android:onClick="checkChocolate"
+        />
+    <CheckBox
+        android:id="@+id/sprinkles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sprinkles"
+        android:onClick="checkSprinkles"
+        />
+    <CheckBox
+        android:id="@+id/crushed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crushed nuts"
+        android:onClick="checkCrushed"
+        />
+    <CheckBox
+        android:id="@+id/cherries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cherries"
+        android:onClick="checkCherries"
+       />
+    <CheckBox
+        android:id="@+id/ori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orio cookie crumbles"
+        android:onClick="checkOri"
+        />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:onClick="showToast"
+        android:backgroundTint="#d6d7d7"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Show Toast" />
+</LinearLayout>
+
